@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aditya Nayak</title>
+    <link rel="stylesheet" href="format.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="icon" type="image/jpeg" href="images/Linkedin image.jpeg" />
+
+<meta property="og:title" content="Aditya Nayak – Data Enthusiast" />
+<meta property="og:description" content="Explore my digital portfolio." />
+<meta property="og:image" content="https://yourdomain.com/images/Linkedin%20image.jpeg" />
+<meta property="og:url" content="images/ASN image.jpeg" />
+<meta property="og:type" content="website" />
+
+  </head>
+  <body>
+    <div class="locked" style="border-bottom: 1px solid black">
+      <div class="header-section">
+        <img src="images\Linkedin image.jpeg" alt="Profile Picture" />
+
+        <!-- Creates the image / text divide-->
+
+        <div class="header-text">
+          <h1 style="line-height: 1.5">Aditya Nayak</h1>
+          <h2>Data Enthusiast</h2>
+        </div>
+      </div>
+      <div class="tab-buttons">
+        <button onclick="showTab('overview', this)" class="active">
+          Overview
+        </button>
+        <button onclick="showTab('about', this)">About Me</button>
+        <button onclick="showTab('academia', this)">Academia</button>
+        <button onclick="showTab('professional', this)">Professional</button>
+        <button onclick="showTab('extras', this)">Extras</button>
+  <!--  <button onclick="checkAccess('personal', this)">Personal</button>-->
+      </div>
+    </div>
+
+    <div
+      style="margin-top: 130px"
+      id="overview"
+      class="tab-content active fade-in"
+    >
+      <h1>Hey there! 👋</h1>
+      <p>
+        Welcome to my digital domain - I'm <strong> Aditya Nayak</strong>. A
+        data enthusiast with an interest in
+        <i>research, analytics, critical thinking & strategy planning</i>. I am
+        also someone who loves to code, catch patterns that are not easily
+        visible, try out new things & play sports both on the field and
+        virtually.
+      </p>
+      <p>
+        This site is just a detailed version of me in webpage form. You can find
+        a bit of everything here:
+      </p>
+      <ul
+        style="
+          font-size: 18px;
+          line-height: 1.5;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+            Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+            sans-serif;
+        "
+      >
+        <li>
+          <strong>About Me</strong> - Who I am, how I got to where I am today
+          etc.
+        </li>
+        <li>
+          <strong>Extras</strong> - Stuff I geek out about, from tech, games,
+          design to random day to day events.
+        </li>
+        <li><strong>Academia</strong> - My learning journey so far.</li>
+        <li>
+          <strong>Professional</strong> - Projects I've built, skills I've
+          picked up & what I'm working toward.
+        </li>
+        <li>
+          <strong>Personal</strong> - Things learnt outside the keyboard -
+          hobbies, clubs etc.
+        </li>
+      </ul>
+      <p>
+        It’s all pretty chill — nothing too formal, just a place for me to share
+        what I’ve done and what I’m into. Feel free to explore, scroll around,
+        or say hi if you’re up for it!
+      </p>
+      <p>You can reach out by connecting with me through the mediums below.</p>
+    </div>
+
+    <div style="margin-top: 140px" id="about" class="tab-content fade-in">
+      <h1>About Me</h1>
+      <div style="width: 105%" class="side-by-side">
+        <img
+          src="images\ASN image.jpeg"
+          alt="Aditya Nayak"
+          class="image-side"
+        />
+
+        <div class="text-side">
+          <p>
+            To give more clearity — I'm a data nerd, part-time overthinker, and
+            full-time learner with an interest in digging into messy datasets,
+            spotting patterns, and building cool stories & insights with code.
+          </p>
+          <p>
+            I got into data science because I’m curious by nature — from the
+            beginning of my childhood days by always asking “why?” and “what
+            if?” (<i>Again, I'm sorry Mom & Dad</i>) Whether it’s predicting
+            basketball brackets, analyzing crime trends, or figuring out what
+            drives user behavior, I’m all about finding meaning in numbers.
+          </p>
+          <p>
+            I mainly work with Python, SQL, and tools like Datawrapper, Tableau,
+            Altair or Matplotlib to bring stories out of data. Machine learning?
+            Yep, I’ve done some of that too. But what really excites me is using
+            data to solve real problems or answer tough questions.
+          </p>
+          <p>
+            When I’m not buried in a Jupyter notebook, I’m usually hanging out
+            with my friends & family, watching day-to-day events and figure out
+            trends, or play virtual / field sports like badminton, football (<i
+              >US: soccer</i
+            >) way too seriously.
+          </p>
+        </div>
+      </div>
+      <p>
+        One goal that I look forward to achive in my lifetime is to visit as
+        many parts of the world, as possible. To experience various cultures,
+        locations & traditions
+      </p>
+      <br />
+      <iframe
+        title="Places visited as of date....."
+        aria-label="Map"
+        id="datawrapper-chart-10YSd"
+        src="https://datawrapper.dwcdn.net/10YSd/1/"
+        scrolling="no"
+        frameborder="0"
+        style="width: 0; min-width: 100% !important; border: none"
+        height="479"
+        data-external="1"
+      ></iframe>
+      <script type="text/javascript">
+        !(function () {
+          "use strict";
+          window.addEventListener("message", function (a) {
+            if (void 0 !== a.data["datawrapper-height"]) {
+              var e = document.querySelectorAll("iframe");
+              for (var t in a.data["datawrapper-height"])
+                for (var r, i = 0; (r = e[i]); i++)
+                  if (r.contentWindow === a.source) {
+                    var d = a.data["datawrapper-height"][t] + "px";
+                    r.style.height = d;
+                  }
+            }
+          });
+        })();
+      </script>
+      <br />
+      <br />
+      <br />
+    </div>
+
+    <div style="margin-top: 120px" id="extras" class="tab-content fade-in">
+      <h1>Extras</h1>
+      <p>
+        Besides my interest in programming, web design and data analysis, I also
+        developed an interest in various sports both on the field and virtually.
+        These games have certainly helped me understand the essential factors
+        that lead to the day-to-day events around the world; which I like to
+        call the <b>"PPF toolkit"</b>. (Do let me know if you figure out what it
+        is! 😆)
+      </p>
+      <p>
+        While I was maily involved in playing sports like badminton, football &
+        cricket, I also enjoy playing video games such as:
+      </p>
+      <ul>
+        <h2><li>Heroes of the Pacific</li></h2>
+        <figure style="text-align: center">
+          <img
+            src="images\hotp.png"
+            alt="heroes of the pacific images"
+            width="550"
+            class="centered-image"
+          />
+          <figcaption style="color: gray; font-size: 0.9em; margin-top: 5px">
+            Dogfight between the A6M1 Zero & P40 - Warhawk.
+          </figcaption>
+        </figure>
+        <p>
+          An arcade style flight simulator game set in the Pacific theater of
+          World War II. It was released for PC, PS2, and Xbox published by
+          Ubisoft in 2000 and is based on the battle events between the US and
+          the then Japenese Empire in the Pacific Ocean from the surprise attack
+          on Pearl Harbor in 1941 to the capture of Iwo Jima in 1945.
+          Unfortunately, it's one of those games that nobody's ever heard of
+          despite the fact that it was actually really, really good.
+        </p>
+        <p>
+          The game provided a unique perspective of the effects of war on
+          nations and individuals alike. The ways countries conduct A major
+          takeaway that I was able to defer was that wars occur mainly because
+          of the combination of two of the three reasons:
+          <i>pride, greed & vengence. </i>
+        </p>
+        <h2><li>Age of Empires II</li></h2>
+        <figure style="text-align: center">
+          <img
+            src="images\AOE combined.jpg"
+            alt="Age of Empires II images"
+            width="550"
+            class="centered-image"
+          />
+          <figcaption style="color: gray; font-size: 0.9em; margin-top: 5px">
+            Age of Empires II gameplay & civilizations.
+          </figcaption>
+        </figure>
+        <p>
+          A real-time strategy game released in 1999, set in the Middle Ages and
+          allowing you to build and manage their own civilizations, engage in
+          warfare, and compete against other players or AI opponents. The game
+          features various civilizations, each with its own unique technologies,
+          and players can advance through different ages and view new abilities.
+        </p>
+        <p>
+          From the Aztecs, Incas, the Teutonic Order, Franks in the West, to the
+          Khemer, Mongols and Japanese in the East; the game allows players to
+          take control of real historical civilizations. This game has helped me
+          sharpens critical real-world skills. At its core, the game demands
+          strategic thinking.
+        </p>
+        <p>
+          Players must analyze the map, scout opponents, and adapt their
+          strategies on the fly. Choosing when to attack, when to defend, and
+          how to allocate resources teaches long-term planning and the ability
+          to make quick, informed decisions - much like solving real-life
+          problems where time & resources management are constant challenges.
+        </p>
+
+        <h2><li>Grand Theft Auto</li></h2>
+        <figure style="text-align: center">
+          <img
+            src="images\GTAE.jpg"
+            alt="GTA images"
+            width="550"
+            class="centered-image"
+          />
+          <figcaption style="color: gray; font-size: 0.9em; margin-top: 5px">
+            Grand theft Auto gameplay.
+          </figcaption>
+        </figure>
+        <p>
+          From gang violence and politics to government espionage, police corruption,
+           vice, and power acquisition, as well as real estate battles and bureaucratic 
+           corruption, Rockstar North has masterfully explored the majority of these complex 
+           themes in their game. The title presents a diverse range of protagonist perspectives, 
+           each character bringing their own compelling backstory and unique mission arcs that 
+           interweave to create a rich narrative tapestry.
+        </p>
+        <p>
+          The game unfolds across meticulously crafted fictional cities that draw clear inspiration 
+          from iconic real-world locations: Liberty City resembling New York, Los Santos 
+          mirrors the sprawling landscape of Los Angeles, Las Venturas embodies the neon-lit excess of 
+          Las Vegas, and San Fierro reflecting San Francisco. 
+        </p>
+        <p>
+          Players can freely traverse these immersive rural & urban environments, engage with dynamic NPCs, 
+          and tackle both primary story missions and optional side quests that add depth to the overall experience. 
+          Drawing inspiration from countless films and television series, it's no surprise that Rockstar 
+          has crafted what can only be described as a complete <b><i>masterpiece</i></b>.
+        </p>
+
+        <h2><li>Detroit: Become Human</li></h2>
+        <figure style="text-align: center">
+          <img
+            src="images\DBH combined.jpg"
+            alt="CS images"
+            width="550"
+            class="centered-image"
+          />
+          <figcaption style="color: gray; font-size: 0.9em; margin-top: 5px">
+            Detroit: Become Human gameplay.
+          </figcaption>
+        </figure>
+        <p>
+          Based in the city of Detroit, MI during the year 2036, where the city has been influenced by the 
+          invention of AI robots into everyday life. However, these robots are not treated as equals to humans, 
+          and on realization start behaving as if they are alive, causing things to go out of control. 
+        </p>
+        <p>
+          The game follows the story of three <i>androids</i> (AI robots), Kara, Connor & Markus, who are trying to 
+          find their way in a world where they are not considered equal to humans. The game helps in identifying and understand 
+          the question in regards to AI: is this the beginning of a new species and are we ready to accept them as equals? Or will they 
+          prove to be humanity's downfall?
+        </p>
+
+        <h2><li>Counter-Strike</h2></li>
+        <figure style="text-align: center">
+          <img
+            src="images\CSCOMB.jpg"
+            alt="CS images"
+            width="550"
+            class="centered-image"
+          />
+          <figcaption style="color: gray; font-size: 0.9em; margin-top: 5px">
+            Counter-Strike (CS) gameplay.
+          </figcaption>
+        </figure>
+        <p>
+          The most well known and influencial competitive first-person shooter games, even before PUBG and 
+          Fortnite.The main gameplay revolves around two teams, the Terrorists and the Counter-Terrorists 
+          battling in round based matches involving either a hostage rescue mission or a bomb defusal scenario.
+        </p>
+        <p>
+          The game is particularly notable is its emphasis on skill, teamwork precision & communication. 
+          It features on determining opposite team patterns and an economy system which grows based on 
+          their individual & team performance. This creates a high-stakes scenario where every action has a consequence.
+        </p>
+      </ul>
+    </div>
+
+    <div style="margin-top: 120px" id="academia" class="tab-content fade-in">
+      <h1>Academia</h1>
+      <p>
+        My academic journey formally began from the age of five, with a
+        fascination for mathematics, social sciences and tech that only grew
+        over time.
+      </p>
+      <ol type="I">
+        <h2><li>Loyola High School & Junior College (K-12)</li></h2>
+        <figure style="text-align: center">
+          <img
+            src="images\school image.jpg"
+            alt="school picture"
+            width="450"
+            class="centered-image"
+          />
+          <figcaption style="color: gray; font-size: 0.9em; margin-top: 5px">
+            Image of school campus taken by me as of May 15 2015.
+          </figcaption>
+        </figure>
+
+        <p style="line-height: 1.5">
+          My time at Loyola High School or LHS for short (<i>insert math pun</i
+          >😝) was preety cool! Outside of class, I was all about belting out
+          "Country Roads," devouring Diary of a Wimpy Kid books, and playing
+          soccer and chess with friends. The school also got me hooked on tech
+          tools like Excel and basic HTML—I was totally blown away by how
+          computers could solve problems in seconds that would take me forever!
+          That's actually what pushed me to study Computer Engineering in
+          college.
+        </p>
+        <!--
+
+        <img
+          src="images\class 2 pic.jpg"
+          style="clip-path: inset(00px 00px 0px 00px)"
+          alt="class photo"
+          width="450"
+          class="centered-image"
+        /> -->
+        <h2>
+          <li>
+            University of Pune: Modern Education Society's College of
+            Engineering
+          </li>
+        </h2>
+        <h3>Batchelor of Engineering - Computer Engineering</h3>
+        <p style="line-height: 1.5">
+          Thus, with a curiosity of learning the working of computer's and it's
+          ability to perform multiple operations so effiiciently, I began my
+          Undergraduate studies in the field of Computer Engineering. From where
+          I built my foundations in programming languages like Python & Java
+          along with my understanding the ways in which computers possess the
+          abilitly of performing complex calculation through digital
+          electronics, microprocessors etc.
+        </p>
+        <p style="line-height: 1.5">
+          This also introduced me to concepts like data mining , Warehousing &
+          Data Analytics which introduced to the fundamentals of SQL and
+          additional Python frameworks such as pandas, seaborn, matplotlib etc.
+          Through these tools I was able to find patterns and build visuals
+          using various charts & graphs. With these skills, I was excited to
+          figure out how I could leverage my skills to assist organizations in
+          their daily operations which compelled me to pursue a Masters within
+          the field of Data Science.
+        </p>
+        <figure style="text-align: center">
+          <img
+            src="images\BE Comp 1.jpg"
+            alt="school picture"
+            width="500"
+            class="centered-image"
+          />
+          <figcaption style="color: gray; font-size: 0.9em; margin-top: 5px">
+            BE Computer-1 (2021 Batch)
+          </figcaption>
+        </figure>
+        <h2>
+          <li>
+            George Washington University: Columbian College of Arts & Sciences
+          </li>
+        </h2>
+        <h3>Master of Science - Data Science</h3>
+        <figure style="text-align: center">
+          <img
+            src="images\GW image.jpg"
+            alt="school picture"
+            width="450"
+            class="centered-image"
+          />
+          <figcaption style="color: gray; font-size: 0.9em; margin-top: 5px">
+            Image of George Washington's statue at the George Washington
+            University (2022).
+          </figcaption>
+        </figure>
+        <p>
+          With these skills honed and in order to learn how they could be used
+          to assist organizations in decision making and strategy planning, I
+          decided to pursue a Master's in Data Science at George Washington
+          University (GWU). Here, I was introduced to detailed concepts of data
+          warehousing, data mining, machine learning and data visualization
+          along with the usage of various data tools like AWS, Datawrapper.
+        </p>
+        <p>
+          The program has been a game-changer for me, giving me a better
+          understanding of the mechanism of how predicitve algorithms work, and
+          the identification of Key Perfomance Indices, how to storytell various
+          topics using data and apply this knowledge to real-world problems
+          within healthcare, . I also got to work with some amazing professors
+          and classmates who really pushed me to think critically and
+          creatively.
+        </p>
+      </ol>
+    </div>
+
+    <div
+      style="margin-top: 120px"
+      id="professional"
+      class="tab-content fade-in"
+    >
+      <h1>Professional Experience</h1>
+      <div class="card-container">
+        <div class="card">
+          <div class="role-header">
+            <img src="images/pink_space_theory_logo.jpg" alt="Pink Space Theory Logo" class="org-logo" />
+            <div>
+              <h3>Data Analyst</h3>
+              <div class="company">Pink Space Theory </div>
+              <div class="company">Sept 2024 – Present</div>
+            </div>
+          </div>
+
+          <ul style="font-size: 14px; line-height: 1.5">
+            <li>
+              Analyzed STEAM program data to improve effectiveness, leading to
+              restructuring and enhanced capabilities.
+            </li>
+            <li>
+              Created concise reports with Excel and Tableau to track
+              performance indicators and support decision-making.
+            </li>
+            <li>
+              Designed interactive Tableau dashboards that increased stakeholder
+              engagement by 20%
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="role-header">
+            <img src="images/gwu_ccas image.jpg" alt="Pink Space Theory Logo" class="org-logo" />
+          <div>
+            <h3>Graduate Teaching Assistant</h3>
+            <div class="company">Geroge Washington University</div>
+            <div class="company">Aug 2023 – Dec 2023</div>
+          </div>
+        </div>
+
+          <ul style="font-size: 14px; line-height: 1.5">
+            <li>
+              Designed syllabi and lesson plans that improved course structure
+              and increased student participation by 35%
+            </li>
+            <li>
+              Revitalized course content with faculty, raising student
+              engagement scores by 28%
+            </li>
+            <li>
+              Applied data-driven tutoring strategies that boosted student
+              performance by 42%
+            </li>
+            <li>
+              Resolved academic challenges between students and faculty,
+              achieving 100% student success rate
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="role-header">
+            <img src="images/dssd logo.jpg" alt="Pink Space Theory Logo" class="org-logo" />
+          <div>
+            <h3>Data Scientist</h3>
+            <div class="company">GW Data Science for Sustainable Development</div>
+            <div class="company">Feb 2023 – Aug 2023</div>
+          </div>
+        </div>
+
+          <ul style="font-size: 14px; line-height: 1.5">
+            <li>
+              Partnered with universities to update Bolivia's municipal
+              management data, enhancing policy analysis accuracy
+            </li>
+            <li>
+              Processed large datasets for SQL Server integration to enable
+              efficient reporting
+            </li>
+            <li>
+              Identified reporting gaps across sectors (healthcare, education,
+              infrastructure, crime) to improve management
+            </li>
+            <li>
+              Tracked Bolivia's socio-economic policies and verified analyses
+              for reliable policy recommendations
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h1>Projects</h1>
+      <a
+        href="https://github.com/adinayak99/GW-Capstone-Project"
+        target="_blank"
+        class="project-clickable-card"
+      >
+        <div class="project-card-content">
+          <h2>Cardiovascular Disease Classification</h2>
+          <h3>Overview:</h3>
+          <p style="font-size: 14px; line-height: 1.5">
+            Cardiovascular disease (CVD) is a class of diseases that affects the
+            heart or blood vessels (veins and arteries). It can be caused by a
+            combination of socio-economic, behavioral, and environmental risk
+            factors, including high blood pressure, unhealthy diet, high
+            cholesterol, diabetes, air pollution, obesity, tobacco use, kidney
+            disease, physical inactivity, harmful use of alcohol and stress.
+            Family history, ethnic background, sex, and age can also affect a
+            person’s risk of cardiovascular disease.
+          </p>
+          <br />
+          <p style="font-size: 14px; line-height: 1.5">
+            This project aims at developing a classification Machine Learning
+            model for CVD risk prediction, aiming to improve accuracy by
+            identifying novel risk factors and understanding their complex
+            relationships.
+          </p>
+        </div>
+        <br>
+      </a>
+
+
+      <a
+        href="https://github.com/adinayak99/March-Madness-2024?tab=readme-ov-file"
+        target="_blank"
+        class="project-clickable-card"
+      >
+        <div class="project-card-content">
+          <h2>NCAA March Madness 2024 Bracket Prediction</h2>
+          <h3>Overview:</h3>
+          <p style="font-size: 14px; line-height: 1.5">
+            Another year, another chance to predict the upsets, call the
+            probabilities, and put your bracketology skills to the leaderboard
+            test.
+          </p>
+          <br />
+          <p style="font-size: 14px; line-height: 1.5">
+            This project forecasts the outcomes of both the men's and women's
+            collegiate basketball tournaments for the year 2024, by submitting
+            an portfolio of brackets based on historical data.
+          </p>
+        </div>
+        <br>
+      </a>
+
+      <a
+        href="https://github.com/adinayak99/Crime-Data-Analytics"
+        target="_blank"
+        class="project-clickable-card"
+      >
+        <div class="project-card-content">
+          <h2>Crime Analytics of Washington, DC & Pittsburgh, PA</h2>
+          <h3>Overview:</h3>
+          <p style="font-size: 14px; line-height: 1.5">
+            The dataset contains a subset of locations and attributes of
+            incidents reported in the ASAP (Analytical Services Application)
+            crime report database by the District of Columbia Metropolitan
+            Police Department (MPD) as well as records of 911 calls from June
+            2024 to August 2024 to the Pittsburgh Bureau of Police at
+            Pittsburgh, PA.
+          </p>
+          <br />
+          <p style="font-size: 14px; line-height: 1.5">
+            This project analyzes the crime trends and call patterns within the
+            city and provides more insights and recommendaations towards
+            effective law enforcement practices.
+          </p>
+        </div>
+        <br>
+      </a>
+
+      <a
+        href="https://github.com/adinayak99/My_Projects/tree/main/Comparative%20Analysis%20of%20Asthma%2C%20COVID-19%20%26%20Cystic%20Fibrosis"
+        target="_blank"
+        class="project-clickable-card"
+      >
+        <div class="project-card-content">
+          <h2>
+            Comparative Analysis of Asthma, COVID-19 & Cystic Fibrosis:
+            Unraveling Shared Pathogenic Mechanisms
+          </h2>
+          <h3>Overview:</h3>
+          <p style="font-size: 14px; line-height: 1.5">
+            The intricate symphony of life resonates with the echoes of
+            molecular evolution. Proteins, the microscopic maestros, orchestrate
+            cellular dances, their choreography shaped by eons of mutations and
+            adaptations. In the arena of respiration, three seemingly disparate
+            conditions – asthma, COVID-19, and cystic fibrosis – share the
+            stage, each with its own poignant performance. Asthma, a chronic
+            inflammatory waltz, disrupts the airflow with hyperactive immune
+            responses. COVID-19, a viral invader, unleashes a macabre pirouette
+            of cellular hijacking. And cystic fibrosis, a genetic mutation's
+            cruel twist, thickens the mucus-laden atmosphere, impeding the vital
+            exchange of gases.
+          </p>
+          <br />
+          <p style="font-size: 14px; line-height: 1.5">
+            This project analyzes the DNA sequences of COVID-19, Cystic Fibrosis
+            & asthma to determine similarities between them by the construction
+            of a phylogeny tree.
+          </p>
+        </div>
+        <br>
+      </a>
+    </div>
+
+    <br />
+    <section class="footer">
+      <br />
+      <center>
+        <h2>Connect:</h2>
+        <div class="circle-buttons">
+          <a
+            href="https://github.com/adinayak99?tab=repositories"
+            target="_blank"
+            class="circle-button"
+            title="Github"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/adityanayak09/"
+            target="_blank"
+            class="circle-button"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&to=adityasnayak99@gmail.com"
+            target="_blank"
+            class="circle-button"
+            title="Gmail"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <br />
+        <br />
+        <br />
+        <p style="font-size: 12px">
+          Copyright © 2025 Aditya Nayak. All Rights Reserved.
+        </p>
+        <br />
+      </center>
+    </section>
+
+    <!--This section is the logic of the security of the tabs-->
+    <script>
+      function showTab(tabId, button) {
+        document
+          .querySelectorAll(".tab-content")
+          .forEach((tab) => tab.classList.remove("active"));
+        document
+          .querySelectorAll(".tab-buttons button")
+          .forEach((btn) => btn.classList.remove("active"));
+        document.getElementById(tabId).classList.add("active");
+        button.classList.add("active");
+        window.scrollTo({ top: 0 });
+      }
+
+      function checkAccess(tabId, button) {
+        const keyword = prompt("Enter the name of my first residence:");
+        if (keyword && keyword.toLowerCase() === "open123") {
+          showTab(tabId, button);
+        } else {
+          alert("Access Denied. Try again.");
+        }
+      }
+    </script>
+  </body>
+</html>
