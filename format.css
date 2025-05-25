@@ -290,7 +290,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin: 10px 0px;
+    margin: 10px 50px;
     width: 900%;
     max-width: 800px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
