@@ -82,30 +82,27 @@ h1 {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  padding: 0 15px; /* Some breathing space on mobile */
+  padding: 160px 15px 0;   /* ✅ Push content down to avoid being hidden */
 }
 
 
   .tab-content.active {
   display: block;
-  padding: 20px 15px;
+  padding: 160px 15px 20px;  /* ✅ Match the top padding to avoid content overlap */
   width: 100%;
   box-sizing: border-box;
 }
 
 
   .locked {
-    /*position: fixed;*/
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    background: #f0f2f5;
-    text-align: center;
-    z-index: 1030;
-    box-sizing: border-box;
-  }
+  position: fixed;           /* ✅ Make it fixed to top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f0f2f5;       /* ✅ Solid background to hide scroll underneath */
+  z-index: 9999;             /* ✅ Stay on top of other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* optional for visual separation */
+}
 
   /*Header display*/
 
