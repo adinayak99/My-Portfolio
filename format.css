@@ -542,3 +542,32 @@ h1 {
     width: 100% !important;
   }
 }
+
+@media (max-width: 600px) {
+  .header-section {
+    flex-direction: row;         /* ✅ side-by-side layout */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 15px;
+    margin-left: 0;
+  }
+
+  .header-text {
+    text-align: left;
+  }
+
+  .header-section img {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+  }
+
+  .header-text h1 {
+    font-size: 18px;
+  }
+
+  .header-text h2 {
+    font-size: 14px;
+  }
+}
