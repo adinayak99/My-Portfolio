@@ -299,17 +299,19 @@ h1 {
   }
 
   @media (max-width: 600px) {
-    .tab-content {
-    margin-top: 400px; /* pushes the content below the tab bar */
+  .tab-content {
+    margin-top: 220px; /* ✅ ADJUST this height to match your header height */
   }
-    .card {
-      padding: 20px;
-    }
 
-    h1 {
-      font-size: 2em;
-    }
+  .card {
+    padding: 20px;
   }
+
+  h1 {
+    font-size: 2em;
+  }
+}
+
 
 @media (max-width: 1024px) {
   .header-section {
