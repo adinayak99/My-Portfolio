@@ -297,7 +297,7 @@ h1 {
 
   @media (max-width: 600px) {
     .tab-content {
-    margin-top: 200px; /* pushes the content below the tab bar */
+    margin-top: 400px; /* pushes the content below the tab bar */
   }
     .card {
       padding: 20px;
