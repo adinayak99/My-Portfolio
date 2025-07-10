@@ -88,7 +88,7 @@ h1 {
 
   .tab-content.active {
   display: block;
-  padding: 160px 15px 20px;  /* ✅ Match the top padding to avoid content overlap */
+  padding: 170px 15px 20px;  /* ✅ Match the top padding to avoid content overlap */
   width: 100%;
   box-sizing: border-box;
 }
