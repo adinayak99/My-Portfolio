@@ -214,7 +214,7 @@ h1 {
   .circle-button:hover {
     background-color: rgb(237, 232, 232);
     color: black;
-    border: 1px solid rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255);
   }
 
   /*Structure for professional experience cards*/
